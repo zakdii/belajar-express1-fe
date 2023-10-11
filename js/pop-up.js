@@ -4,11 +4,11 @@ const showPopupButton = document.getElementById("showPopupButton");
 const closePopupButton = document.getElementById("closePopupButton");
 
 // Show the pop-up when the button is clicked
-showPopupButton.addEventListener("click", function() {
-    popup.classList.add("popup-show");
+showPopupButton.addEventListener("click", function () {
+  popup.classList.add("popup-show");
 });
 
 // Close the pop-up when the close button is clicked
-closePopupButton.addEventListener("click", function() {
-    popup.classList.remove("popup-show");
+closePopupButton.addEventListener("click", function () {
+  popup.classList.remove("popup-show");
 });
